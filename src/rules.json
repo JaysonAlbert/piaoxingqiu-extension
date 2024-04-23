@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "chrome-extension://baghlcdlnpmknlemmhekigknfmlfjnok/local-script.js"
+      }
+    },
+    "condition": {
+      "urlFilter": "https://static.tongdun.net/v3/fm.js?t=476001",
+      "resourceTypes": [
+        "script"
+      ]
+    }
+  }
+]

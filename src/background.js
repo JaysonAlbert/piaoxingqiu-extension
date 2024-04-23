@@ -16,3 +16,17 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     });
   }
 });
+
+// chrome.webRequest.onBeforeRequest.addListener(
+//   function (details) {
+//     if (details.url.includes('tongdun')) {
+//       console.log('1111' + details.url);
+
+//     }
+//     // if (details.url.indexOf("url-of-the-original-script.js") > -1) {
+//     //   return { redirectUrl: chrome.runtime.getURL("replacement.js") };
+//     // }
+//   },
+//   { urls: ["<all_urls>"] },
+//   ["requestBody"]
+// );
